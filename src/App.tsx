@@ -32,7 +32,7 @@ const Box = styled(motion.div)`
   border-radius: 10px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
   cursor: pointer;
-
+  /* 
   &:nth-child(1) {
     transform-origin: bottom right;
   }
@@ -44,20 +44,31 @@ const Box = styled(motion.div)`
   }
   &:nth-child(4) {
     transform-origin: top left;
-  }
+  } */
 `;
 
 const boxVariants = {
   normal: {
     scale: 1,
   },
-  hover: {
+
+  hover: (n: string) => ({
     scale: 1.1,
+    x: n === "1" || n === "3" ? "-5%" : "5%",
+    y: n === "1" || n === "2" ? "-5%" : "5%",
     transition: {
       duaration: 0.1,
       type: "tween",
     },
-  },
+  }),
+
+  // hover: {
+  //   scale: 1.1,
+  //   transition: {
+  //     duaration: 0.1,
+  //     type: "tween",
+  //   },
+  // },
 };
 
 const Circle = styled(motion.div)`
