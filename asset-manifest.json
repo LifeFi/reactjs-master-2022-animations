@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/reactjs-master-2022-animations/static/js/main.7dbbd90d.js",
+    "main.js": "/reactjs-master-2022-animations/static/js/main.5fd6f36f.js",
     "index.html": "/reactjs-master-2022-animations/index.html",
-    "main.7dbbd90d.js.map": "/reactjs-master-2022-animations/static/js/main.7dbbd90d.js.map"
+    "main.5fd6f36f.js.map": "/reactjs-master-2022-animations/static/js/main.5fd6f36f.js.map"
   },
   "entrypoints": [
-    "static/js/main.7dbbd90d.js"
+    "static/js/main.5fd6f36f.js"
   ]
 }
